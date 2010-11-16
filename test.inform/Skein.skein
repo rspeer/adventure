@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x2da7e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x5815b0" />
+  <item nodeId="node-0x2da7e0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+inform-test
+An Interactive Fiction by Robert Speer
+Release 1 / Serial number 101116 / Inform 7 build 6F95 (I6/v6.31 lib 6/12N) SD
+
+Media Lab
+You are sitting on a black couch in the Media Lab, trying to hack interactive fiction with limited success.
+
+A 70-inch TV looms over you, adamantly displaying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">NO</temporary>
+    <children>
+      <child nodeId="node-0x5815b0" />
+      <child nodeId="node-0x5ed620" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ed620">
+    <command xml:space="preserve">now the score is 100</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0x5815b0">
+    <command xml:space="preserve">look at TV</command>
+    <result xml:space="preserve">You see nothing special about the Samsung TV.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+</Skein>

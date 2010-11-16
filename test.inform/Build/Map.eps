@@ -1,0 +1,51 @@
+%!PS-Adobe EPSF-3.0
+%%BoundingBox: 0 0 168 144
+%%IncludeFont: Helvetica
+/Helvetica findfont 24 scalefont setfont
+newpath % Ruled outline outer box of map
+12 12 moveto % bottom left corner
+156 12 lineto % bottom side
+156 132 lineto % right side
+12 132 lineto % top side
+closepath
+stroke
+newpath % Ruled outline strut of map
+12 96 moveto % LHS
+156 96 lineto % RHS
+closepath
+stroke
+0.000000 0.000000 0.000000 setrgbcolor % From HTML colour 000000
+/Helvetica findfont 24 scalefont setfont
+newpath (Map)
+24 % = X
+114 24 2 div sub % = Y centre-offset
+moveto show
+currentlinewidth % Stack for later
+1 setlinewidth
+setlinewidth
+newpath % Shaded box for Media Lab (0,0,0)
+0.752941 0.752941 0.752941 setrgbcolor % From HTML colour c0c0c0
+30 36 moveto % bottom left corner
+66 36 lineto % bottom side
+66 72 lineto % right side
+30 72 lineto % top side
+closepath
+fill
+
+currentlinewidth % Stack for later
+1 setlinewidth
+newpath % Room outline
+0.000000 0.000000 0.000000 setrgbcolor % From HTML colour 000000
+30 36 moveto % bottom left corner
+66 36 lineto % bottom side
+66 72 lineto % right side
+30 72 lineto % top side
+closepath
+stroke
+setlinewidth
+0.000000 0.000000 0.000000 setrgbcolor % From HTML colour 000000
+/Helvetica findfont 12 scalefont setfont
+newpath (Md Lb)
+dup stringwidth add 2 div 48 exch sub % = X centre-offset
+54 12 2 div sub % = Y centre-offset
+moveto show

@@ -1,0 +1,37 @@
+! Blurb file created by Inform build 6F95
+
+status "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/CblorbModel.html" "/Users/rspeer/Documents/inform-test.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/rspeer/Documents/inform-test.inform"
+release to "/Users/rspeer/Documents/inform-test Materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "inform-test.zblorb"
+storyfile "/Users/rspeer/Documents/inform-test.inform/Build/output.z8" include
+ifiction "/Users/rspeer/Documents/inform-test.inform/Metadata.iFiction" include
+cover "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
+picture 1 "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "F7C8099A-C1C2-4AEF-84D0-C2DD931D7047"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2010"
+placeholder [TITLE] = "inform-test"
+placeholder [AUTHOR] = "Robert Speer"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc391.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc393.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc394.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc398.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc392.html><img border=0 src=inform:/help.png></a>||

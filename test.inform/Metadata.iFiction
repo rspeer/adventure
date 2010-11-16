@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>F7C8099A-C1C2-4AEF-84D0-C2DD931D7047</ifid>
+            <format>zcode</format>
+        </identification>
+        <bibliographic>
+            <title>inform-test</title>
+            <author>Robert Speer</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2010</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2010-11-16</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6F95</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6F95</generatorversion>
+            <originated>2010-11-16</originated>
+        </colophon>
+        <zcode>
+            <serial>101116</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6F95</compiler>
+        </zcode>
+    </story>
+</ifindex>
